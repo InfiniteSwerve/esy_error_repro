@@ -1,6 +1,6 @@
 # esy_error_repro
 
-Running `esy b dune build` will work, but when run again, will produce yield the following error:
+Running `esy`, then `esy b dune build`, then `esy b dune build` again will yield the following error:
 ```
 Internal error, please report upstream including the contents of _build/log.
 Description:
